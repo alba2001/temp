@@ -64,6 +64,6 @@ git push
       
 8. add user:
 >
-put "account-name.put" into "gitolite-admin/keypair"
-edit "conf/gitolite.conf", change to
-@developer root, account-name
+put "account-name.put" into "gitolite-admin/keypair"    
+edit "conf/gitolite.conf", change to    
+@developer root, account-name    
