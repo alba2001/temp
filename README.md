@@ -51,7 +51,7 @@ repo testing
 RW+ = @all
 R = daemon
 testing “Owner” = “Test repo”
-
+>
 git add conf/gitolite.conf
 git commit -m “Enabled gitweb and git-daemon export for testing repo”
 git push
@@ -59,11 +59,12 @@ git push
 7. install gitweb:
 >sudo apt-get install highlight gitweb
 sudo emacs /etc/gitweb.conf
-    
+>
 \# change $projectroot to /home/gitolite/repositories    
 \# change $projects_list to /home/gitolite/projects.list    
       
 8. add user:
->put "account-name.put" into "gitolite-admin/keypair"
+>
+put "account-name.put" into "gitolite-admin/keypair"
 edit "conf/gitolite.conf", change to
 @developer root, account-name
