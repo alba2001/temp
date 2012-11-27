@@ -28,11 +28,10 @@ http://www.vxbus.com/software/linux/162-ubuntu-1204-git-server.html
 >sudo apt-get -y install gitolite
     
 4. setup gitolite:
->
-sudo usermod -a -G gitolite www-data
-sudo service apache2 restart
-sudo su – gitolite
-gl-setup /tmp/your-username-goes-here.pub
+>sudo usermod -a -G gitolite www-data    
+>sudo service apache2 restart    
+>sudo su – gitolite    
+>gl-setup /tmp/your-username-goes-here.pub    
      
 5. edit .gitolite.rc:
 >$REPO_UMASK = 0027
