@@ -39,7 +39,7 @@ gl-setup /tmp/your-username-goes-here.pub
     
 6. manage gitolite:
 >
-\# FROM YOUR LOCAL MACHINE
+\# FROM YOUR LOCAL MACHINE    
 git clone gitolite@git.server:gitolite-admin.git
 
 \# FROM YOUR LOCAL MACHINE
