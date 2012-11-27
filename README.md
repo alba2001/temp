@@ -41,12 +41,12 @@ gl-setup /tmp/your-username-goes-here.pub
 >
 \# FROM YOUR LOCAL MACHINE    
 git clone gitolite@git.server:gitolite-admin.git
-    
->\# FROM YOUR LOCAL MACHINE    
+     
+\# FROM YOUR LOCAL MACHINE    
 cd gitolite-admin
 emacs conf/gitolite.conf
-    
->\# change to:    
+     
+\# change to:    
 repo testing
 RW+ = @all
 R = daemon
