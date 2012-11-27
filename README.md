@@ -21,7 +21,7 @@ http://www.vxbus.com/software/linux/162-ubuntu-1204-git-server.html
 >sudo apt-get install git-core git-doc
     
 2. create gitolite user:
->sudo addgroup gitolite
+>sudo addgroup gitolite    
 >sudo adduser –disabled-password –home /home/gitolite –ingroup gitolite gitolite
     
 3. install gitolite:
