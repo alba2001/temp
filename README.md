@@ -58,9 +58,9 @@ git push
 7. install gitweb:
 >sudo apt-get install highlight gitweb    
 >sudo emacs /etc/gitweb.conf    
-
->\# change $projectroot to /home/gitolite/repositories    
->\# change $projects_list to /home/gitolite/projects.list    
+>
+\# change $projectroot to /home/gitolite/repositories    
+\# change $projects_list to /home/gitolite/projects.list    
       
 8. add user:
 >
