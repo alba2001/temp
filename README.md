@@ -41,11 +41,11 @@ gl-setup /tmp/your-username-goes-here.pub
 >
 \# FROM YOUR LOCAL MACHINE    
 git clone gitolite@git.server:gitolite-admin.git
-
+>
 \# FROM YOUR LOCAL MACHINE    
 cd gitolite-admin
 emacs conf/gitolite.conf
-
+>
 \# change to:    
 repo testing
 RW+ = @all
@@ -55,7 +55,7 @@ testing “Owner” = “Test repo”
 git add conf/gitolite.conf
 git commit -m “Enabled gitweb and git-daemon export for testing repo”
 git push
-     
+        
 7. install gitweb:
 >sudo apt-get install highlight gitweb
 sudo emacs /etc/gitweb.conf
