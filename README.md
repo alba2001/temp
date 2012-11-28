@@ -67,3 +67,9 @@ git push
 put "account-name.put" into "gitolite-admin/keypair"    
 edit "conf/gitolite.conf", change to    
 @developer root, account-name    
+
+Setting bash as default shell
+-----------------------------
+>chsh -s /path/to/shell {user-name}    
+тоесть    
+>chsh -s /bin/bash user
