@@ -1,7 +1,7 @@
 temp
 ====
 ###[Initial Server Setup with Ubuntu 12.04](https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04)###
-
+###[Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)###
     
 В putty неверно отображается псевдографика Midnight Commander
 ------------------------------------------------------------
@@ -75,7 +75,3 @@ Setting bash as default shell
 >chsh -s /path/to/shell {user-name}    
 то есть    
 >chsh -s /bin/bash user    
-
-Generating SSH Keys
--------------------
-https://help.github.com/articles/generating-ssh-keys
