@@ -72,4 +72,8 @@ Setting bash as default shell
 -----------------------------
 >chsh -s /path/to/shell {user-name}    
 то есть    
->chsh -s /bin/bash user
+>chsh -s /bin/bash user    
+
+Generating SSH Keys
+-------------------
+https://help.github.com/articles/generating-ssh-keys
