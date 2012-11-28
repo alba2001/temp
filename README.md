@@ -2,6 +2,7 @@ temp
 ====
 ####[Initial Server Setup with Ubuntu 12.04](https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04)####
 ####[Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)####
+####[Основные команды Git](http://crazycode.net/blog/5-versioning/8-git-main-commands)####
     
 В putty неверно отображается псевдографика Midnight Commander
 ------------------------------------------------------------
