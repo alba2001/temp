@@ -71,5 +71,5 @@ edit "conf/gitolite.conf", change to
 Setting bash as default shell
 -----------------------------
 >chsh -s /path/to/shell {user-name}    
-тоесть    
+то есть    
 >chsh -s /bin/bash user
