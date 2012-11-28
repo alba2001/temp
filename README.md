@@ -1,7 +1,7 @@
 temp
 ====
 [Initial Server Setup with Ubuntu 12.04](https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04)
-----------------------------------------
+======================================
     
 В putty неверно отображается псевдографика Midnight Commander
 ------------------------------------------------------------
