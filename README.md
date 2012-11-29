@@ -9,6 +9,7 @@ error: failed to push some refs to ...
 для устранения этого, идем на сервер и в папке проекта пишем следующую комманду:
     
 >git config receive.denyCurrentBranch ignore
+    
 ####[How to Set Up vsftpd on Ubuntu 12.04](https://www.digitalocean.com/community/articles/how-to-set-up-vsftpd-on-ubuntu-12-04)####
     
 В putty неверно отображается псевдографика Midnight Commander
