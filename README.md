@@ -19,7 +19,7 @@ error: failed to push some refs to ...
 * --cut-dirs=5 allows me to take the content of /absolute/path/to/directory and to put it in the directory where I launch wget. The number 5 is used to filter out the 5 components of the path. The double slash means an extra componen
     
 #####Создать пользователя#####
->sudo useradd -d /home/testuser -m -c "Comment" testuser
+>sudo useradd -d /home/testuser -s /bin/bash -m -c "Comment" testuser
     
 #####Создание виртуального WEB сервера    
 >sudo mkdir -p /home/artem/example.com/public_html    
