@@ -28,7 +28,7 @@ error: failed to push some refs to ...
 >sudo nano /home/artem/example.com/public_html/index.html    
 >sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/example.com    
 >sudo nano /etc/apache2/sites-available/example.com    
-DocumentRoot /home/artem/example.com/public_html    
+* DocumentRoot /home/artem/example.com/public_html    
     
 >sudo a2ensite example.com
     
