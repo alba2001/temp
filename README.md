@@ -21,6 +21,17 @@ error: failed to push some refs to ...
 #####Создать пользователя#####
 >sudo useradd -d /home/testuser -m -c "Comment" testuser
     
+#####Создание виртувльного WEB сервера#####    
+>sudo mkdir -p /home/artem/example.com/public_html    
+>sudo chown -R artem:artem /home/artem/example.com/public_html     
+>sudo chmod -R 755 /home/artem    
+>sudo nano /home/artem/example.com/public_html/index.html    
+>sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/example.com    
+>sudo nano /etc/apache2/sites-available/example.com    
+DocumentRoot /home/artem/example.com/public_html    
+    
+>sudo a2ensite example.com
+    
 #####[How to Set Up vsftpd on Ubuntu 12.04](https://www.digitalocean.com/community/articles/how-to-set-up-vsftpd-on-ubuntu-12-04)#####
     
 В putty неверно отображается псевдографика Midnight Commander
