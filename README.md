@@ -21,7 +21,7 @@ error: failed to push some refs to ...
 #####Создать пользователя#####
 >sudo useradd -d /home/testuser -m -c "Comment" testuser
     
-#####Создание виртувльного WEB сервера    
+#####Создание виртуального WEB сервера    
 >sudo mkdir -p /home/artem/example.com/public_html    
 >sudo chown -R artem:artem /home/artem/example.com/public_html     
 >sudo chmod -R 755 /home/artem    
