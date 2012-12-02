@@ -32,7 +32,7 @@ error: failed to push some refs to ...
     
 >sudo a2ensite example.com
     
-#####Красивый gitlog
+#####Красивый git log
 >git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit    
 
 #####[How to Set Up vsftpd on Ubuntu 12.04](https://www.digitalocean.com/community/articles/how-to-set-up-vsftpd-on-ubuntu-12-04)#####
