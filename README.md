@@ -1,4 +1,5 @@
 Узник острока акул
+#####[Настройка Nginx как front-end + Apache как back-end. Для чайников.](http://freehabr.ru/blog/linux/2365.html)
 #####[Кэширующий прозрачный прокси сервер SQUID на Debian squeeze](http://habrahabr.ru/sandbox/39160/)#####
 #####[Initial Server Setup with Ubuntu 12.04](https://www.digitalocean.com/community/articles/initial-server-setup-with-ubuntu-12-04)#####
 #####[Generating SSH Keys](https://help.github.com/articles/generating-ssh-keys)#####
