@@ -23,6 +23,33 @@ error: failed to push some refs to ...
 #####Создать пользователя#####
 >sudo useradd -d /home/testuser -s /bin/bash -m -c "Comment" testuser
     
+##### Установка роутера
+> eth0-------------Internet
+> eth1-------------Internal
+* Configure the Internal interface (eth2) with static IP.
+> Edit the /etc/network/interfaces file and add following
+
+iface eth1 inet static
+address 192.168.0.1
+netmask 255.255.255.0
+network 192.168.0.0
+broadcast 192.168.0.255
+gateway 192.168.0.1
+    
+* Restart network and verify the eth2 interface's IP
+> #/etc/init.d/network restart    
+* Enable forwarding
+> # cat /proc/sys/net/ipv4/ip_forward
+0
+echo 1 > /proc/sys/net/ipv4/ip_forward
+or open the file manually and uncomment
+nano /etc/sysctl.conf
+net.ipv4.ip_forward = 1    
+* Add IPTABLES rule for NAT
+> iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE    
+* Final Testing
+> ping www.google.com    
+    
 #####Создание виртуального WEB сервера    
 >sudo mkdir -p /home/artem/example.com/public_html    
 >sudo chown -R artem:artem /home/artem/example.com/public_html     
