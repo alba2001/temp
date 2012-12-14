@@ -25,7 +25,8 @@ error: failed to push some refs to ...
     
 ##### Установка роутера    
 > eth0-------------Internet    
-> eth1-------------Internal    
+> eth1-------------Internal        
+    
 * Configure the Internal interface (eth2) with static IP.    
 > Edit the /etc/network/interfaces file and add following
 
@@ -41,12 +42,12 @@ gateway 192.168.0.1
 * Enable forwarding    
 > # cat /proc/sys/net/ipv4/ip_forward
 0
-echo 1 > /proc/sys/net/ipv4/ip_forward
+# echo 1 > /proc/sys/net/ipv4/ip_forward
 or open the file manually and uncomment
-nano /etc/sysctl.conf
+# nano /etc/sysctl.conf
 net.ipv4.ip_forward = 1    
 * Add IPTABLES rule for NAT     
-> iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE    
+> # iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE    
 * Final Testing    
 > ping www.google.com        
     
