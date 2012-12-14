@@ -38,16 +38,16 @@ error: failed to push some refs to ...
  gateway 192.168.0.1
     
 * Restart network and verify the eth2 interface's IP    
-> #/etc/init.d/network restart    
+> \#/etc/init.d/network restart    
 * Enable forwarding    
-> # cat /proc/sys/net/ipv4/ip_forward
+> \# cat /proc/sys/net/ipv4/ip_forward
 0
-> # echo 1 > /proc/sys/net/ipv4/ip_forward
+> \# echo 1 > /proc/sys/net/ipv4/ip_forward
 > or open the file manually and uncomment
-> # nano /etc/sysctl.conf
+> \# nano /etc/sysctl.conf
 net.ipv4.ip_forward = 1    
 * Add IPTABLES rule for NAT     
-> # iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE    
+> \# iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE    
 * Final Testing    
 > ping www.google.com        
     
