@@ -1,5 +1,6 @@
 ##### Монтируем CD-ROM в Ubuntu
 >mount /dev/cdrom /mnt/cdrom     
+     
 #####[Run PHP as User](http://helixdevelopment.com/dl/rau/current/doc/#instreq)
 #####[how to enable mod_rewrite in apache2.2 (debian/ubuntu)](http://www.lavluda.com/2007/07/15/how-to-enable-mod_rewrite-in-apache22-debian/)
 #####[Ubuntu - Nginx виртуальные](http://linux-bsd.in.ua/nginx/163-ubuntu-nginx-virtual-hosts.html)
