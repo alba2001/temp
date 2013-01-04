@@ -1,3 +1,4 @@
+#####[Oracle Instant Client 11g on Ubuntu ](http://www.gena01.com/forum/gena01-blog/oracle-instant-client-11g-on-ubuntu/)
 #####[Установка и настройка Apache2 с PHP-FPM в Linux Ubuntu](http://itbuben.org/blog/Unix-way/2273.html)
 ##### Монтируем CD-ROM в Ubuntu
 >mount /dev/cdrom /mnt/cdrom     
