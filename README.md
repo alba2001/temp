@@ -1,3 +1,4 @@
+#####[Recover MySQL root Password](http://www.cyberciti.biz/tips/recover-mysql-root-password.html)
 #####[Установка расширений OCI8 и PDO_OCI для PHP5](http://habrahabr.ru/post/116474/)
 #####[Oracle Instant Client 11g on Ubuntu ](http://www.gena01.com/forum/gena01-blog/oracle-instant-client-11g-on-ubuntu/)
 #####[Установка и настройка Apache2 с PHP-FPM в Linux Ubuntu](http://itbuben.org/blog/Unix-way/2273.html)
