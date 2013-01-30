@@ -1,3 +1,4 @@
+#####[How to fix InnoDB corruption cases for the MySQL database](http://kb.parallels.com/en/6586)
 #####[Ubuntu Server Linux базовая установка и настройка Sendmail](http://prof-labs.ru/blog/nix/80)
 #####[Recover MySQL root Password](http://www.cyberciti.biz/tips/recover-mysql-root-password.html)
 #####[Установка расширений OCI8 и PDO_OCI для PHP5](http://habrahabr.ru/post/116474/)
