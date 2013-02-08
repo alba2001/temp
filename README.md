@@ -1,3 +1,7 @@
+##### Установка русской локали    
+>locale-gen ru_RU.utf8
+>sudo dpkg-reconfigure locales
+    
 #####[How to fix InnoDB corruption cases for the MySQL database](http://kb.parallels.com/en/6586)
 #####[Ubuntu Server Linux базовая установка и настройка Sendmail](http://prof-labs.ru/blog/nix/80)
 #####[Recover MySQL root Password](http://www.cyberciti.biz/tips/recover-mysql-root-password.html)
