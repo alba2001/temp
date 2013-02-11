@@ -1,4 +1,4 @@
-#####(Установка PHP 5.2 и PHP 5.3 нп одной машине)[http://zgadzaj.com/how-to-install-php-53-and-52-together-on-ubuntu-1204]
+#####[Установка PHP 5.2 и PHP 5.3 на одной машине](http://zgadzaj.com/how-to-install-php-53-and-52-together-on-ubuntu-1204)
 ##### Установка русской локали    
 >locale-gen ru_RU.utf8    
 >sudo dpkg-reconfigure locales    
