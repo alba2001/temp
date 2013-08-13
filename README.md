@@ -158,3 +158,7 @@ Setting bash as default shell
 >chsh -s /path/to/shell {user-name}    
 то есть    
 >chsh -s /bin/bash user    
+
+http://forum.webasyst.ru/viewtopic.php?pid=74661
+http://blog.a4b.com.ua/2012/09/e-commerce-google-analytics.html
+https://support.google.com/analytics/?hl=ru
